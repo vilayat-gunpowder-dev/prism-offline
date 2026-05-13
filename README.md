@@ -10,7 +10,7 @@ A PowerShell script that bypass Microsoft account verification, allowing you to 
 This script creates/overwrites the accounts.json file in Prism Launcher's configuration directory with pre-configured account settings that trick the launcher into thinking a valid Microsoft account with Minecraft entitlement exists.
 
 # ✅ Tested On
-* Prism Launcher Version: 9.4
+* Prism Launcher Version: [9.4](https://github.com/PrismLauncher/PrismLauncher/releases/tag/9.4) (Recommended)
 
 * Operating System: Windows 10/11
 
