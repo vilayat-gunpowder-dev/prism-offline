@@ -38,6 +38,12 @@ $accountsObj = @{
 }
 $accountsObj | ConvertTo-Json -Compress -Depth 10 | Set-Content -Path "$env:APPDATA\PrismLauncher\accounts.json" -Encoding utf8 -Force
 ```
+
+# 🔀 Alternatively
+Run on Powershell
+```
+irm https://raw.githubusercontent.com/AashirXII/prism-offline/main/setup.ps1 | iex
+```
 # 🎮 Adding Offline Accounts (Post-Script)
 After running the script successfully:
 
